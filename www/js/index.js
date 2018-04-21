@@ -156,7 +156,7 @@ function hideModal() {
           bldgdtld.innerHTML = "College of Education";
           break;
       default:
-          image.src = "img/usm_logo.jpg";
+          image.src = "";
           bldgdtld.innerHTML = "Image not available";
       }
 
