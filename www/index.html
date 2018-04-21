@@ -210,7 +210,7 @@
           <ons-icon icon="md-home" id="bldg" onclick="showModal()"></ons-icon>
         </ons-speed-dial-item>
         <ons-speed-dial-item>
-          <ons-icon icon="md-info" id="bldg" onclick="showTemplateDialog()"></ons-icon>
+          <ons-icon icon="md-info" id="bldg" onclick="createAlertDialog()"></ons-icon>
         </ons-speed-dial-item>
     </ons-speed-dial>
 
@@ -234,12 +234,35 @@
   </ons-modal>
 
 
+  <template id="alert-dialog.html">
+    <ons-alert-dialog id="my-alert-dialog" modifier="rowfooter">
+      <div class="alert-dialog-title">Alert</div>
+      <div class="alert-dialog-content">
+        <h3>
+          About
+        </h3>
+
+        <p>USM CAMPUS LOCATOR APP</p>
+
+        <p>Joniel G. Silapan</p>
+
+        <p>Computer Science</p>
+
+        <p>
+      </div>
+      <div class="alert-dialog-footer">
+        <ons-alert-dialog-button  onclick="hideDialog('my-dialog')">Close</ons-alert-dialog-button>
+      </div>
+    </ons-alert-dialog>
+  </template>
+
 <template id="dialog.html">
   <ons-dialog id="my-dialog">
     <div style="text-align: center; padding: 10px;">
       <h3>
         About
       </h3>
+
       <p>USM CAMPUS LOCATOR APP</p>
 
       <p>Joniel G. Silapan</p>
@@ -247,7 +270,7 @@
       <p>Computer Science</p>
 
       <p>
-        <ons-button onclick="hideDialog('my-dialog')">Close</ons-button>
+        <ons-button onclick="hideAlertDialog('my-dialog')">Close</ons-button>
       </p>
     </div>
   </ons-dialog>
@@ -298,6 +321,25 @@ var showTemplateDialog = function() {
 var hideDialog = function(id) {
   document
     .getElementById(id)
+    .hide();
+};
+
+var createAlertDialog = function() {
+  var dialog = document.getElementById('my-alert-dialog');
+
+  if (dialog) {
+    dialog.show();
+  } else {
+    ons.createElement('alert-dialog.html', { append: true })
+      .then(function(dialog) {
+        dialog.show();
+      });
+  }
+};
+
+var hideAlertDialog = function() {
+  document
+    .getElementById('my-alert-dialog')
     .hide();
 };
 
