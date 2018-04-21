@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=5, minimum-scale=0.25, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <!--
+    <link rel="stylesheet" href="css/bootstrap-select.css" />
+  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+
+  <link rel="stylesheet" href="css/onsenui.css">
+  <link rel="stylesheet" href="css/onsen-css-components.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+  <script src="js/onsenui.min.js"></script>
+  <title>Hello World</title>
+</head>
+<body>
+
+    <div id="page1" style="text-align: center; margin-top: 30px;">
+    <p style="margin-top: 30px;">
+      <ons-button onclick="gotoMap()" id="proceedBtn">Proceed to Map</ons-button>
+    </p>
+  </div>
+
+  <ons-page id="page2">
+    <ons-toolbar>
+      <div class="left">
+
+        <ons-select id="end" onchange="editSelects(event)">
+          <option value="USM College of Engineering and Computing Kabacan, Cotabato">College of Eng'g and Computing</option>
+          <option value="College of Arts and Sciences Kabacan, Cotabato">College of Arts and Sciences</option>
+          <option value="University Laboratory School Kabacan, Cotabato">University Laboratory School</option>
+          <option value="Information and Communication Technology Center Kabacan, Cotabato">Information and Communication Technology Center</option>
+          <option value="University Laboratory School Convention Hall Kabacan, Cotabato">Laboratory School Convention Hall</option>
+          <option value="USM-Hostel Kabacan, Cotabato">USM-Hostel</option>
+          <option value="Graduate Hostel  Kabacan, Cotabato">Graduate Hostel</option>
+          <option value="University Learning Resource Center Kabacan, Cotabato">Learning Resource Center</option>
+          <option value="College of Health Sciences Kabacan, Cotabato">College of Health Sciences</option>
+          <option value="College Of Industry and Technology Kabacan, Cotabato">College Of Industry and Technology</option>
+          <option value="College of Education - Annex Kabacan, Cotabato">College of Education - Annex</option>
+          <option value="College of Education Kabacan, Cotabato">College of Education</option>
+          <option value="College of Veterinary Medicine - Annex Kabacan, Cotabato">College of Veterinary Medicine - Annex</option>
+          <option value="College of Veterinary Medicine Kabacan, Cotabato">College of Veterinary Medicine </option>
+          <option value="College of Agriculture Kabacan, Cotabato">College of Agriculture</option>
+          <option value="College of Agriculture - Annex Kabacan, Cotabato">College of Agriculture</option>
+          <option value="Wood Technical Building Kabacan, Cotabato">Wood Technical Building</option>
+          <option value="College of Business Development Economics and Management Kabacan, Cotabato">Business Development Economics and Management</option>
+          <option value="College of Fisheries and Animal Science Kabacan, Cotabato">College of Fisheries and Animal Science</option>
+          <option value="College of College of Human Ecology and Food Sciences Kabacan, Cotabato">College of Human Ecology and Food Sciences</option>
+          <option value="College of Hotel and Restuarant Management Kabacan, Cotabato">Hotel and Restuarant Management</option>
+          <option value="College of Middle East Asian Studies Kabacan, Cotabato">College of Middle East Asian Studies</option>
+
+          <!--no image buildings---->
+
+          <option value="University of Southern Mindanao Administration Building Kabacan, Cotabato">University of Southern Mindanao Administration Building</option>
+          <option value="USM Alumni Office Kabacan, Cotabato">USM Alumni Office</option>
+          <option value="USM Faculty Association Kabacan, Cotabato">USM Faculty Association</option>
+          <option value="7.113195, 124.831542">CA Soil Science Office</option>
+          <option value="7.113195, 124.831542">CA Species House</option>
+          <option value="7.113195, 124.831542">CA Guidance/LSG Building</option>
+          <option value="7.113195, 124.831542">CA Tool Room/CS Room</option>
+          <option value="7.111970, 124.835350">Halal Goat Project</option>
+          <option value="7.112562, 124.835803">CA Dept of Animal Science</option>
+          <option value="7.113252, 124.833379">CA Main building</option>
+
+          <option value="7.113693, 124.832181">CA Annex building</option>
+          <option value="7.113693, 124.832181">CA Crop Protection Cluster Bldg</option>
+          <option value="7.113874, 124.831168">ULS Convention Hall</option>
+          <option value="7.113874, 124.831168">ULS Speech Lab</option>
+          <option value="7.114653, 124.831377">ROTC Building</option>
+          <option value="7.115163, 124.831515">New OSA Bldg</option>
+          <option value="7.115163, 124.831515">Criminology Bldg</option>
+          <option value="7.115416, 124.831493">ICTC Bldg</option>
+          <option value="7.115472, 124.831491">Criminology Lab Bldg</option>
+          <option value="7.115472, 124.831491">Jeep Lab Bldg</option>
+          <option value="7.115030, 124.832584">ULS Science Bldg</option>
+
+          <option value="7.115307, 124.833316">Clonal Office</option>
+          <option value="7.115474, 124.832994">Propagation box</option>
+          <option value="7.116103, 124.833404">Artifician Insemination Box</option>
+          <option value="7.116268, 124.833540">USCAO Bldg</option>
+          <option value="7.117169, 124.832306">ISPEAR Annex bldg</option>
+          <option value="7.116193, 124.831657">CBDEM Buidling</option>
+          <option value="7.116193, 124.831657">Univ. Guidance center</option>
+          <option value="7.117438, 124.831989">Pres Asinas amphi theather</option>
+          <option value="7.118096, 124.831614">BDC/USMECCO Bldg</option>
+
+          <option value="7.117694, 124.831034">USM Gymnasium</option>
+          <option value="7.117945, 124.829276">Auditorium</option>
+          <option value="7.117003, 124.828887">Swimming pool</option>
+          <option value="7.115682, 124.829858">DD Clemente bldg</option>
+          <option value="7.115239, 124.831013">OSA Office bldg</option>
+          <option value="7.114917, 124.830863">USG bldg</option>
+          <option value="7.114553, 124.830785">USM Extension bldg</option>
+          <option value="7.114237, 124.830619">Museum bldg</option>
+          <option value="7.114752, 124.830425">Cafe Nartina Bldg</option>
+          <option value="7.114788, 124.829023">Pres Cottage</option>
+
+          <option value="7.115800, 124.828435">Womens Dorm</option>
+          <option value="7.115703, 124.827009">Lydia P.Oliva Pavillion</option>
+          <option value="7.117789, 124.828097">CHEFS PRE FAB bldg</option>
+          <option value="7.118319, 124.828610">Power house I</option>
+          <option value="7.117859, 124.827267">Multimedia center</option>
+          <option value="7.117455, 124.826353">Mens dorm bldg</option>
+
+          <option value="7.119344, 124.824762">IMEAS bldg</option>
+          <option value="7.118914, 124.826508">Alumni bldg</option>
+          <option value="7.121222, 124.826003">CENCOM Demo farm</option>
+          <option value="7.120458, 124.827931">MRIGP</option>
+          <option value="7.119205, 124.827489">DIT Main bldg</option>
+          <option value="7.120427, 124.828457">DIT arts and sciences bldg</option>
+          <option value="7.119545, 124.828478">DIT wood tech bldg</option>
+          <option value="7.118721, 124.828388">DIT AUto tech bldg</option>
+          <option value="7.119263, 124.829117">CVM Hospital</option>
+
+          <option value="7.119670, 124.831447">Water Pump II</option>
+          <option value="7.119885, 124.830364">Library</option>
+          <option value="7.120788, 124.830020">Gender Child Care bldg</option>
+          <option value="7.120749, 124.830406">Nursing Annex</option>
+          <option value="7.120993, 124.830842">Nursing Main bldg</option>
+
+          <option value="7.121579, 124.830766">DXVL Radio Station</option>
+          <option value="7.121630, 124.830462">CAS Main Bldg</option>
+          <option value="7.122680, 124.831199">CAS CHED DAP bldg</option>
+          <option value="7.122600, 124.830267">University Hospital </option>
+          <option value="7.121838, 124.829201">Water Pump I</option>
+          <option value="7.121067, 124.828385">CENCOM Lecture Room</option>
+          <option value="7.121240, 124.828136">CENCOM FARM SHOP</option>
+          <option value="7.121043, 124.828002">MAchine Shop</option>
+          <option value="7.121091, 124.827766">Transport Bldg</option>
+          <option value="7.121091, 124.827766">PPDS BODEGA</option>
+
+          <option value="7.121253, 124.827327">Granary</option>
+          <option value="7.122140, 124.827616">Power House II</option>
+          <option value="7.123564, 124.827394">Guest house</option>
+
+
+        </ons-select>
+
+      </div>
+
+      <div class="right">
+        <ons-toolbar-button id="activate"><ons-icon icon="fa-car"></ons-icon></ons-toolbar-button>
+      </div>
+
+    </ons-toolbar>
+
+    <div style="display:none">
+      <p id="demo">hello</p>
+      <p id="lat">hello</p>
+      <p id="long">hello</p>
+    </div>
+    <!--
+    <section style="padding: 8px">
+      <ons-button  modifier="large" id="bldg" onclick="showdialog()">View Building</ons-button>
+    </section>
+    -->
+    <div id="map" onload="changeImage()"></div>
+
+    <ons-speed-dial position="bottom right" direction="up">
+        <ons-fab>
+          <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+        </ons-fab>
+        <ons-speed-dial-item>
+          <ons-icon icon="fa-car" id="refresh"></ons-icon>
+        </ons-speed-dial-item>
+        <ons-speed-dial-item>
+          <ons-icon icon="md-home" id="bldg" onclick="showModal()"></ons-icon>
+        </ons-speed-dial-item>
+        <ons-speed-dial-item>
+          <ons-icon icon="md-info" id="bldg" onclick="showTemplateDialog()"></ons-icon>
+        </ons-speed-dial-item>
+    </ons-speed-dial>
+
+  </ons-page>
+
+  <!---   DISPLAY Building   -------->
+
+  <ons-modal direction="up">
+    <div style="text-align: center">
+      <div style="text-align: center; padding: 10px;">
+
+        <img src="img/usm_logo.jpg" alt="" id="imageOne" style="width:100%;" data-elem="pinchzoomer">
+        <p id="bldg-detail"></p>
+        <p>
+          <ons-button onclick="hideModal()">Close</ons-button>
+            <ons-button id="zoomin">zoomin</ons-button>
+              <ons-button id="zoomout">zoomout</ons-button>
+        </p>
+      </div>
+    </div>
+  </ons-modal>
+
+
+<template id="dialog.html">
+  <ons-dialog id="my-dialog">
+    <div style="text-align: center; padding: 10px;">
+      <h3>
+        About
+      </h3>
+      <p>USM CAMPUS LOCATOR APP</p>
+
+      <p>Joniel G. Silapan</p>
+
+      <p>Computer Science</p>
+
+      <p>
+        <ons-button onclick="hideDialog('my-dialog')">Close</ons-button>
+      </p>
+    </div>
+  </ons-dialog>
+</template>
+
+
+<!---   SCRIPTS   -------->
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#zoomin').click(function () {
+        $('#imageOne').width($('#imageOne').width()*1.2)
+        $('#imageOne').height($('#imageOne').height()*1.2)
+
+    })
+        $('#zoomout').click(function () {
+        $('#imageOne').width($('#imageOne').width()/1.2)
+        $('#imageOne').height($('#imageOne').height()/1.2)
+
+    })
+});
+
+var x = document.getElementById("page2");
+x.style.display = "none";
+
+function gotoMap() {
+    var x = document.getElementById("page2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+var showTemplateDialog = function() {
+  var dialog = document.getElementById('my-dialog');
+
+  if (dialog) {
+    dialog.show();
+  } else {
+    ons.createElement('dialog.html', { append: true })
+      .then(function(dialog) {
+        dialog.show();
+      });
+  }
+};
+
+var hideDialog = function(id) {
+  document
+    .getElementById(id)
+    .hide();
+};
+
+</script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiD0-T8u-N1L_oWUyHPYl1sg4pRTX9Yxo&callback=initMap">
+    </script>
+
+</body>
+
+</html>
