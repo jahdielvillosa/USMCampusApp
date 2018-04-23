@@ -213,6 +213,13 @@ function hideModal() {
     });
   }
 
+  function setMarker(){
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(24.696554,-81.328238),
+      map: map
+    });
+  }
+
   var x = document.getElementById("demo");
   var htmllat = document.getElementById("lat");
   var htmllong = document.getElementById("long");
