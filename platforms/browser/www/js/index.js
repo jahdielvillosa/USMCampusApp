@@ -165,6 +165,7 @@ function hideModal() {
 /** GOOGLE MAP API **/
   var lat =0.0;
   var long =0.0;
+  var map;
 
   function initMap() {
     var directionsService = new google.maps.DirectionsService;
@@ -173,8 +174,12 @@ function hideModal() {
 
     var x1 =parseFloat( document.getElementById("lat").textContent);
     var y1 =parseFloat( document.getElementById("long").textContent);
+    if(lat==0 && long == 0){
+      lat=7.113195;
+      long= 124.831542;
+    }
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+   map = new google.maps.Map(document.getElementById('map'), {
       zoom: 17,
       center: {lat: lat, lng: long}
     });
@@ -206,16 +211,18 @@ function hideModal() {
       travelMode: 'DRIVING'
     }, function(response, status) {
       if (status === 'OK') {
+
         directionsDisplay.setDirections(response);
       } else {
         window.alert('Directions request failed due to ' + status);
       }
     });
+    setMarker(map,lat,long);
   }
 
-  function setMarker(){
+  function setMarker(map,marklat,makrlong){
     var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(24.696554,-81.328238),
+      position: new google.maps.LatLng(marklat,makrlong),
       map: map
     });
   }
