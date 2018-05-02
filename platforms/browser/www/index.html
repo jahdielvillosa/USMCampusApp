@@ -58,16 +58,17 @@
 </head>
 <body>
 
+  <!--- PAGE 1 main -->
   <div id="page1">
     <p >
       <ons-button onclick="gotoMap()" id="proceedBtn">Proceed to Map</ons-button>
     </p>
   </div>
 
+  <!--- PAGE 2 map -->
   <ons-page id="page2">
     <ons-toolbar>
       <div class="left">
-
         <ons-select id="end" onchange="editSelects(event)">
           <option value="USM College of Engineering and Computing Kabacan, Cotabato">College of Eng'g and Computing</option>
           <option value="College of Arts and Sciences Kabacan, Cotabato">College of Arts and Sciences</option>
@@ -88,9 +89,9 @@
           <option value="Wood Technical Building Kabacan, Cotabato">Wood Technical Building</option>
           <option value="College of Business Development Economics and Management Kabacan, Cotabato">Business Development Economics and Management</option>
           <option value="College of Fisheries and Animal Science Kabacan, Cotabato">College of Fisheries and Animal Science</option>
-          <option value="College of College of Human Ecology and Food Sciences Kabacan, Cotabato">College of Human Ecology and Food Sciences</option>
+          <option value="College of Human Ecology and Food Sciences Kabacan, Cotabato">College of Human Ecology and Food Sciences</option>
           <option value="College of Hotel and Restuarant Management Kabacan, Cotabato">Hotel and Restuarant Management</option>
-          <option value="College of Middle East Asian Studies Kabacan, Cotabato">College of Middle East Asian Studies</option>
+          <option value="College of Middle East Asian Studies Kabacan, Cotabato">Institute of Middle East Asian Studies</option>
 
           <!--no image buildings---->
 
@@ -176,7 +177,6 @@
           <option value="7.122140, 124.827616">Power House II</option>
           <option value="7.123564, 124.827394">Guest house</option>
 
-
         </ons-select>
 
       </div>
@@ -188,18 +188,14 @@
     </ons-toolbar>
 
     <div style="display:none">
-      <p id="demo">hello</p>
-      <p id="lat">hello</p>
-      <p id="long">hello</p>
+      <p id="demo">.</p>
+      <p id="lat">.</p>
+      <p id="long">.</p>
     </div>
-    <!--
-    <section style="padding: 8px">
-      <ons-button  modifier="large" id="bldg" onclick="showdialog()">View Building</ons-button>
-    </section>
-    -->
+
     <div id="map" onload="changeImage()"></div>
 
-    <ons-speed-dial position="bottom right" direction="up">
+    <ons-speed-dial position="bottom right" direction="up" style="margin-right:50px;">
         <ons-fab>
           <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
         </ons-fab>
@@ -210,11 +206,36 @@
           <ons-icon icon="md-home" id="bldg" onclick="showModal()"></ons-icon>
         </ons-speed-dial-item>
         <ons-speed-dial-item>
+          <ons-icon icon="fa-file" id="push-desc" onclick="showdesc()" ></ons-icon>
+        </ons-speed-dial-item>
+        <ons-speed-dial-item>
           <ons-icon icon="md-info" id="bldg" onclick="createAlertDialog()"></ons-icon>
         </ons-speed-dial-item>
     </ons-speed-dial>
 
   </ons-page>
+
+
+  <!--- PAGE 1 college info -->
+  <div id="page3" style="display:none;overflow:auto;>
+
+    <ons-button id="zoomout"></ons-button>
+    <ons-button onclick="hidedesc()">Back</ons-button>
+    <img src="img/usm_logo.jpg" alt="" id="desc-image" style="width:100%;" data-elem="pinchzoomer">
+    <h3 id="desc-title1"></h3>
+    <p id=desc-p1>
+      page 1
+    </p>
+    <br />
+    <ons-button onclick="hidedesc()">Back</ons-button>
+    <br />
+    <br />
+    <p>
+
+    </p>
+  </div>
+
+
 
   <!---   DISPLAY Building   -------->
 
@@ -235,18 +256,16 @@
 
 
   <template id="alert-dialog.html">
-    <ons-alert-dialog id="my-alert-dialog" modifier="rowfooter">
+    <ons-alert-dialog id="my-alert-dialog" modifier="rowfooter" >
       <div class="alert-dialog-title"></div>
       <div class="alert-dialog-content">
         <h3>
-          About
+          USM Campus Locator App v.1.0
         </h3>
-
-        <p>USM CAMPUS LOCATOR APP</p>
-
-        <p>Joniel G. Silapan</p>
-
-        <p>Computer Science</p>
+        <p>Programmer: Joniel G. Silapan</p>
+        <p>Course: Computer Science  </p>
+        <p>UI Designer: Joniel G. Silapan  </p>
+        <p>Graphic Designer: Joniel G. Silapan</p>
 
         <p>
       </div>
@@ -309,6 +328,8 @@ function gotoMap() {
     }
 }
 
+
+
 var showTemplateDialog = function() {
   var dialog = document.getElementById('my-dialog');
 
@@ -342,9 +363,6 @@ var createAlertDialog = function() {
 };
 
 var hideAlertDialog = function() {
-  document
-    .getElementById('my-alert-dialog')
-    .hide();
   document
     .getElementById('my-alert-dialog')
     .hide();
