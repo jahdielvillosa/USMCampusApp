@@ -685,7 +685,9 @@ function hideModal() {
                 "<p></p>";
               break;
           default:
+              image1.src = "img/usm_logo.jpg";
               title1.innerHTML = "Content not available";
+              p1.innerHTML = "";
               break;
 
           }
