@@ -197,7 +197,7 @@ function hideModal() {
 
   function setMarker(map,marklat,makrlong){
     var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(marklat,makrlong),
+      position: new google.maps.LatLng(document.getElementById('end').value),
       map: map
     });
   }
@@ -685,7 +685,7 @@ function hideModal() {
                 "<p></p>";
               break;
           default:
-              image1.src = "img/usm_logo.jpg";
+              image1.src = "";
               title1.innerHTML = "Content not available";
               p1.innerHTML = "";
               break;
