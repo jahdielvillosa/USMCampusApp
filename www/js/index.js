@@ -242,55 +242,2360 @@ function hideModal() {
                 image1.src = "img/CAS.png";
                 title1.innerHTML = "College of Arts and Sciences";
                 p1.innerHTML =
-                "<p>The College of Arts and Sciences had its beginning in 1956 as the General Education Department (GED) mandated to respond to the needs of each student for a “broad general education that will assist each individual to develop his full potential as a human being’. Its first unit head was Dr. Donato B. Pableo from 1956 until he retired on October 21, 1974.</p>"+
-                "<p>On October 22, 1974, the GED was headed by Prof. Filomena C. Antonio until her retirement in 1977. The GED branched-out into two departments, namely: the Education Department headed by Prof. Sergio Ramos, and the Languages and Sciences Department which became the nucleus of CAS headed by Prof. Librada C. Pableo from 1977 until her retirement in 1987.</p>"+
+                  "<p>The College of Arts and Sciences had its beginning in 1956 as the General Education Department (GED) mandated to respond to the needs of each student for a “broad general education that will assist each individual to develop his full potential as a human being’. Its first unit head was Dr. Donato B. Pableo from 1956 until he retired on October 21, 1974.</p>"+
+                  "<p>On October 22, 1974, the GED was headed by Prof. Filomena C. Antonio until her retirement in 1977. The GED branched-out into two departments, namely: the Education Department headed by Prof. Sergio Ramos, and the Languages and Sciences Department which became the nucleus of CAS headed by Prof. Librada C. Pableo from 1977 until her retirement in 1987.</p>"+
                   "<p>On March 13, 1978, MIT became a University. The department was converted into a college, the College of Arts and Sciences. Its first dean was Dr. Librada C. Pableo. With its conversion were the two degrees namely, Bachelor of Science in Biology and Bachelor of Science in Chemistry. Two years later, in June 1980, the Development Communication major of the Bachelor of Science in Agriculture from the College of Agriculture was transferred to CAS and became the Department of Development Communication. In June 1983, the Mathematics, Statistics and Physics departments were also transferred from the College of Engineering to CAS.</p>"+
-                "<p>Dr. Rose Marie Bugarin came next as the Dean of CAS from 1987 to 1992. She was the second dean of the college. However, she went to USA for her post-doctoral on Environmental Studies in August 1989, Dr. Prisciliano T. Bauzon was appointed Officer-in-Charge from August 19989-Ausgust 1990. Upon returning to USM, Dr, Bugarin resumed leadership of the College from September 1990 to 1992. It was also during her leadership that the Regional Science Training Center (RSTC) was established. Then she was designated as Director of the newly established Philippine Rubber Testing Center (PRTC).</p>"+
-                "<p>Prof. Ana L. Tomen was appointed Officer-in-Charge from April 1992 to June 30, 1992 and became the third dean of the College on July 1, 1992 up to her retirement on March 30, 1996. In 1994, the Physics Department was separated from the Mathematics, Statistics and Physics Department. In June 1995, a new degree program, Bachelor of Science in Agricultural Chemistry was offered. Upon the retirement of Dr. Tomen, Dr. Nicanora S. Sorrosa became the Officer-in-Charge from April 1, 1996 to June 30, 1996. She was concurrently the Director of the Regional Science Training Center (RSTC) at USM.</p>"+
-                "<p>Dr. Grace G. Lopez became the fourth dean of the College from July 1, 1996 to July 21, 2002. She was designated as Supervisor of the newly established Child Care Center and at the same time the Deputy Director for Research of the University. Through the initiative of the Behavioral Sciences Department Chairperson, Dr. Prisciliano T. Bauzon, the USM Teen Center was established in 1998. The center serves and functions as a youth organization, which aims to improve and promote the total well-being of the youth.</p>"+
-                "<p>A new course offering, Bachelor of Arts in Psychology came into being in June 1997under the Department of Behavioral Sciences. In the same year, two new graduate courses: MS Biology and MA Mathematics were also offered. These graduate courses with already existing MS Development Communication and MAT Biology were given back by the Graduate College to CAS for coordination. In November 2000, another graduate course was offered, MA in Language Teaching (MALT) under the Department of English Language and Literature.The 14-month crash course program on Accelerated Integrated Teacher Training on Cultural Communities (AITTCC) was offered on October 20, 1999 to December 20, 2000. It was designed to provide an accelerated teacher training to qualified dependents of rebel returnees with the Southern Development Authority as funding agency.</p>"+
-                "<p>The changing educational environment called for undergoing the accreditation process, which the College had undergone Level I accreditation on November 8-10, 1996 and Level II on September 23-25, 1998. The College continues to operate in the direction of AACCUP standards to pursue quality education. It was also guided and inspired by the vision and mission of the University from which the goals of the College emanates.The updating of the College to meet the standard is a tedious process. A consultancy visit was done on July 19, 2001 to assess and find out how far the College had complied with the accreditors recommendations and its readiness for resurvey. The first resurvey was done last November 21-23, 2001.</p>"+
-                "<p>On July 26, 2002, there was a turn-over ceremony of the CAS leadership to Dr. Anita B. Tacardon, the fifth CAS Dean, to effect on August 1, 2002. The challenge to meet the standards of a quality college in accordance with the AACCUP criteria is the focus of the preparations for the second resurvey in 2006.A tremendous face lifting of the 25-year old CAS building was made. Classrooms, laboratory rooms, comfort rooms, spacious offices were constructed, renovated and improved. Additional facilities were acquired to serve the interest of the students, e.g. drinking fountains, well-ventilated classrooms, well- equipped audio visual room, student park, and sports area, among others.</p>"+
-                "<p>USM is privileged to have been chosen by CHED to implement the Expanded Tertiary Educational Equivalency Accreditation Program (ETEEAP). The college proposed the BS DevCom under this program and was endorsed by the Academic Council in September 2003 to the Board of Regents which the latter approved. This is to cater the primarily to non-degree holders who are already practitioners but cannot compete for promotion in their workplace.In the same year, the Social Action Center for Community Services and Development (SACCSCD) was also created. The center was conceived through the efforts of Dr. Antonio N. Tacardon as its first and current Executive Director. It was established mainly to promote active and lasting social involvement of the professors and technical experts of the University in community development.</p>"+
-                "<p>Concomitantly, the notable demand for nurses in the international market posed a challenge to the College to consider the possibility of offering the nursing course. The global phenomenon compelled Dr. Anita B. Tacardon to initiate the nursing program to address the local need for a quality nursing school in the area. On December 12, 2003, the BOR gave CAS the blessing to offer BS Nursing, a self-liquidating program with fees different from that of existing regular program. It was duly approved on February 17, 2004 and started to open its eight sections (397 students) last June 2004.</p>"+
+                  "<p>Dr. Rose Marie Bugarin came next as the Dean of CAS from 1987 to 1992. She was the second dean of the college. However, she went to USA for her post-doctoral on Environmental Studies in August 1989, Dr. Prisciliano T. Bauzon was appointed Officer-in-Charge from August 19989-Ausgust 1990. Upon returning to USM, Dr, Bugarin resumed leadership of the College from September 1990 to 1992. It was also during her leadership that the Regional Science Training Center (RSTC) was established. Then she was designated as Director of the newly established Philippine Rubber Testing Center (PRTC).</p>"+
+                  "<p>Prof. Ana L. Tomen was appointed Officer-in-Charge from April 1992 to June 30, 1992 and became the third dean of the College on July 1, 1992 up to her retirement on March 30, 1996. In 1994, the Physics Department was separated from the Mathematics, Statistics and Physics Department. In June 1995, a new degree program, Bachelor of Science in Agricultural Chemistry was offered. Upon the retirement of Dr. Tomen, Dr. Nicanora S. Sorrosa became the Officer-in-Charge from April 1, 1996 to June 30, 1996. She was concurrently the Director of the Regional Science Training Center (RSTC) at USM.</p>"+
+                  "<p>Dr. Grace G. Lopez became the fourth dean of the College from July 1, 1996 to July 21, 2002. She was designated as Supervisor of the newly established Child Care Center and at the same time the Deputy Director for Research of the University. Through the initiative of the Behavioral Sciences Department Chairperson, Dr. Prisciliano T. Bauzon, the USM Teen Center was established in 1998. The center serves and functions as a youth organization, which aims to improve and promote the total well-being of the youth.</p>"+
+                  "<p>A new course offering, Bachelor of Arts in Psychology came into being in June 1997under the Department of Behavioral Sciences. In the same year, two new graduate courses: MS Biology and MA Mathematics were also offered. These graduate courses with already existing MS Development Communication and MAT Biology were given back by the Graduate College to CAS for coordination. In November 2000, another graduate course was offered, MA in Language Teaching (MALT) under the Department of English Language and Literature.The 14-month crash course program on Accelerated Integrated Teacher Training on Cultural Communities (AITTCC) was offered on October 20, 1999 to December 20, 2000. It was designed to provide an accelerated teacher training to qualified dependents of rebel returnees with the Southern Development Authority as funding agency.</p>"+
+                  "<p>The changing educational environment called for undergoing the accreditation process, which the College had undergone Level I accreditation on November 8-10, 1996 and Level II on September 23-25, 1998. The College continues to operate in the direction of AACCUP standards to pursue quality education. It was also guided and inspired by the vision and mission of the University from which the goals of the College emanates.The updating of the College to meet the standard is a tedious process. A consultancy visit was done on July 19, 2001 to assess and find out how far the College had complied with the accreditors recommendations and its readiness for resurvey. The first resurvey was done last November 21-23, 2001.</p>"+
+                  "<p>On July 26, 2002, there was a turn-over ceremony of the CAS leadership to Dr. Anita B. Tacardon, the fifth CAS Dean, to effect on August 1, 2002. The challenge to meet the standards of a quality college in accordance with the AACCUP criteria is the focus of the preparations for the second resurvey in 2006.A tremendous face lifting of the 25-year old CAS building was made. Classrooms, laboratory rooms, comfort rooms, spacious offices were constructed, renovated and improved. Additional facilities were acquired to serve the interest of the students, e.g. drinking fountains, well-ventilated classrooms, well- equipped audio visual room, student park, and sports area, among others.</p>"+
+                  "<p>USM is privileged to have been chosen by CHED to implement the Expanded Tertiary Educational Equivalency Accreditation Program (ETEEAP). The college proposed the BS DevCom under this program and was endorsed by the Academic Council in September 2003 to the Board of Regents which the latter approved. This is to cater the primarily to non-degree holders who are already practitioners but cannot compete for promotion in their workplace.In the same year, the Social Action Center for Community Services and Development (SACCSCD) was also created. The center was conceived through the efforts of Dr. Antonio N. Tacardon as its first and current Executive Director. It was established mainly to promote active and lasting social involvement of the professors and technical experts of the University in community development.</p>"+
+                  "<p>Concomitantly, the notable demand for nurses in the international market posed a challenge to the College to consider the possibility of offering the nursing course. The global phenomenon compelled Dr. Anita B. Tacardon to initiate the nursing program to address the local need for a quality nursing school in the area. On December 12, 2003, the BOR gave CAS the blessing to offer BS Nursing, a self-liquidating program with fees different from that of existing regular program. It was duly approved on February 17, 2004 and started to open its eight sections (397 students) last June 2004.</p>"+
 
-                "<p>The National Telecommunication Company (NTC) assigned the call letters DXKA-FM with the frequency of 93.3MHz. A month-long test broadcast was done which started last June 28, 2006, to ensure the span of coverage and the fine-tuning of signal transmission. It was finally launched and inaugurated last July 18, 2006 with Allan C. Facurib as designated Station Manager. At present, Dr. Anita B. Tacardon was designated as the Station Manager. The DXKA-FM was eventually renamed as DXVL-FM with the frequency of 94.9MHz.In June 2009-2010, Dr. Nelson M. Belgira assumed leadership as the sixth Dean of the College. In 2010 to present, Dr. Evangeline A. Tangonan serves as the 7th Dean of the College.</p>"+
-                "<p>In June 2011, the CAS obtained BOR approval, upon the recommendation of CHED XII the offering of new courses: BS Criminology, now under a separate department of the college and BS Pharmacy under the College of Health Sciences. This is due to the efforts of the faculty of the Department of Social Science and Philosophy and Department of Chemistry respectively under the leadership of Dr. Evangeline A. Tangonan.</p>"+
-                "<p>In 2012, the Department of Biological Sciences through the assistance of Department of Environment and Natural Resources XII established the USM Biodiversity, a focal point for bio-environmental researches. The department was also a recipient of 5 million research grant from DOST-PCAARRD on Goat Production and 4.3 million for herbs and spices research. Together with the Department of Chemistry and Department of English Language and Literature, a 21 million research grant from DOST-PCIEERD was granted for Science and Technology Program for Responsible Mining in Mindanao.</p>"+
-                "<p>In October 2013, the BS Development Communication and AB Psychology submitted for Phase II Level III accreditation by AACUP. The BS Biology program was evaluated for Level IV while AB English, AB Political Science and Bachelor of Library and Information Science were subjected to preliminary survey.CAS being a service college of the University was awarded by CHED a two-story building for classroom.</p>"+
-                "<p></p>"+
+                  "<p>The National Telecommunication Company (NTC) assigned the call letters DXKA-FM with the frequency of 93.3MHz. A month-long test broadcast was done which started last June 28, 2006, to ensure the span of coverage and the fine-tuning of signal transmission. It was finally launched and inaugurated last July 18, 2006 with Allan C. Facurib as designated Station Manager. At present, Dr. Anita B. Tacardon was designated as the Station Manager. The DXKA-FM was eventually renamed as DXVL-FM with the frequency of 94.9MHz.In June 2009-2010, Dr. Nelson M. Belgira assumed leadership as the sixth Dean of the College. In 2010 to present, Dr. Evangeline A. Tangonan serves as the 7th Dean of the College.</p>"+
+                  "<p>In June 2011, the CAS obtained BOR approval, upon the recommendation of CHED XII the offering of new courses: BS Criminology, now under a separate department of the college and BS Pharmacy under the College of Health Sciences. This is due to the efforts of the faculty of the Department of Social Science and Philosophy and Department of Chemistry respectively under the leadership of Dr. Evangeline A. Tangonan.</p>"+
+                  "<p>In 2012, the Department of Biological Sciences through the assistance of Department of Environment and Natural Resources XII established the USM Biodiversity, a focal point for bio-environmental researches. The department was also a recipient of 5 million research grant from DOST-PCAARRD on Goat Production and 4.3 million for herbs and spices research. Together with the Department of Chemistry and Department of English Language and Literature, a 21 million research grant from DOST-PCIEERD was granted for Science and Technology Program for Responsible Mining in Mindanao.</p>"+
+                  "<p>In October 2013, the BS Development Communication and AB Psychology submitted for Phase II Level III accreditation by AACUP. The BS Biology program was evaluated for Level IV while AB English, AB Political Science and Bachelor of Library and Information Science were subjected to preliminary survey.CAS being a service college of the University was awarded by CHED a two-story building for classroom.</p>"+
+                  "<p></p>"+
 
-                "<h3>Vision</h3>"+
-                "<p>Excellence in the Arts and Sciences</p>"+
+                  "<h3>Vision</h3>"+
+                  "<p>Excellence in the Arts and Sciences</p>"+
 
-                "<h3>Mission</h3>"+
-                "<p>Empowerment of faculty and students through quality education.</p>"+
+                  "<h3>Mission</h3>"+
+                  "<p>Empowerment of faculty and students through quality education.</p>"+
 
-                "<h3>Goal</h3>"+
-                "<p>The College of Arts and Sciences pursues the development of well-rounded persons through a culture of excellence in the arts and sciences for the establishment of a just and humane society.</p>"+
+                  "<h3>Goal</h3>"+
+                  "<p>The College of Arts and Sciences pursues the development of well-rounded persons through a culture of excellence in the arts and sciences for the establishment of a just and humane society.</p>"+
 
-                "<h3>Objectives</h3>"+
-                "<ul style='list-style-type:none'>"+
-                "<li>1.	To develop the intellectual capabilities, skills and right attitude of students in the arts and sciences for them to be globally competitive.</li>"+
-                "<li>2.	To develop critical awareness and appreciation of the cultural, scientific, and technological advancements to bridge the gap among cultural communities.</li>"+
-                "<li>3.	To undertake researches in the arts and sciences for curricular enrichment, community empowerment, and human development; and</li>"+
-                "<li>4.	To create and strengthen linkages, collaborative efforts, and networking for the enhancement of programs in instruction, research, extension, and resource generation.</li>"+
+                  "<h3>Objectives</h3>"+
+                  "<ul style='list-style-type:none'>"+
+                  "<li>1.	To develop the intellectual capabilities, skills and right attitude of students in the arts and sciences for them to be globally competitive.</li>"+
+                  "<li>2.	To develop critical awareness and appreciation of the cultural, scientific, and technological advancements to bridge the gap among cultural communities.</li>"+
+                  "<li>3.	To undertake researches in the arts and sciences for curricular enrichment, community empowerment, and human development; and</li>"+
+                  "<li>4.	To create and strengthen linkages, collaborative efforts, and networking for the enhancement of programs in instruction, research, extension, and resource generation.</li>"+
 
-                "</ul>"+
+                  "</ul>"+
 
-                "<h3>Courses Offered</h3>"+
-                "<ul style='list-style-type:none'>"+
-                "<li>BACHELOR OF SCIENCE IN BIOLOGY </li>"+
-                "<li>BACHELOR OF SCIENCE IN CHEMISTRY/ AGRICULTURAL CHEMISTRY </li>"+
-                "<li>BACHELOR OF SCIENCE IN DEVELOPMENT COMMUNICATION </li>"+
-                "<li>BACHELOR OF ARTS IN ENGLISH  </li>"+
-                "<li>BACHELOR OF ARTS IN POLITICAL SCIENCE </li>"+
-                "<li>BACHELOR OF ARTS IN PSYCHOLOGY </li>"+
-                "<li>BACHELOR OF SCIENCE IN CRIMINOLOGY </li>"+
-                "</ul>"+
-                "<p></p>"+
-                "<p></p>";
-
+                  "<h3>Courses Offered</h3>"+
+                  "<ul style='list-style-type:none'>"+
+                  "<li>BACHELOR OF SCIENCE IN BIOLOGY </li>"+
+                  "<li>BACHELOR OF SCIENCE IN CHEMISTRY/ AGRICULTURAL CHEMISTRY </li>"+
+                  "<li>BACHELOR OF SCIENCE IN DEVELOPMENT COMMUNICATION </li>"+
+                  "<li>BACHELOR OF ARTS IN ENGLISH  </li>"+
+                  "<li>BACHELOR OF ARTS IN POLITICAL SCIENCE </li>"+
+                  "<li>BACHELOR OF ARTS IN PSYCHOLOGY </li>"+
+                  "<li>BACHELOR OF SCIENCE IN CRIMINOLOGY </li>"+
+                  "</ul>"+
+                  "<p></p>"+
+                  `
+                  <p><strong>Faculties</strong></p>
+                  <p><strong>Biology Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <thead>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td>
+                  <p>Agduma, Angelo R.</p>
+                  </td>
+                  <td>
+                  <p>MS Botany</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Breta&ntilde;a, Bryan Lloyd</p>
+                  </td>
+                  <td>
+                  <p>BS-Biology (Micro)</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Cabasan, Ma. Teodora</p>
+                  </td>
+                  <td>
+                  <p>MST-Biology<br /> MS-Nematology</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Casim, Lothy F.</p>
+                  </td>
+                  <td>
+                  <p>MS-Biology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Eda&ntilde;o, Johnny Wyne B.</p>
+                  </td>
+                  <td>
+                  <p>BS-Biology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ele, Renee Jane A.</p>
+                  </td>
+                  <td>
+                  <p>MS-Biology (Botany)</p>
+                  </td>
+                  <td>
+                  <p>Instructor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Galas, Genalyn P.</p>
+                  </td>
+                  <td>
+                  <p>BS-Biology(Micro)</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Garcia, May Eva Z.</p>
+                  </td>
+                  <td>
+                  <p>PhD Science Education (Bio)</p>
+                  </td>
+                  <td>
+                  <p>Prof. III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Lerios, Tessie E.</p>
+                  </td>
+                  <td>
+                  <p>PhD Science Education</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mabang, Welhma C.</p>
+                  </td>
+                  <td>
+                  <p>MAT-Biology</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mamalo, Bai Sharifa A.</p>
+                  </td>
+                  <td>
+                  <p>BS-Biology (Micro)</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mangaoang, Cherie C.</p>
+                  </td>
+                  <td>
+                  <p>MS-Biology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Murray. Sedra A.</p>
+                  </td>
+                  <td>
+                  <p>PhD. Extension</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Salem, James Gregory C.</p>
+                  </td>
+                  <td>
+                  <p>PhD-Biology</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Supremo, Janette P</p>
+                  </td>
+                  <td>
+                  <p>PhD Science Education (Bio)</p>
+                  </td>
+                  <td>
+                  <p>Professor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tanabe, Maria Elena N.</p>
+                  </td>
+                  <td>
+                  <p>MS-Micro</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tanalgo, Krizler C.</p>
+                  </td>
+                  <td>
+                  <p>BS-Biology (Eco)</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Chemistry Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <thead>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td>
+                  <p>Amacio, Virginia S.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Barroga, Beldad I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  </td>
+                  <td>
+                  <p>MAT Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bello, Antolin D.</p>
+                  </td>
+                  <td>
+                  <p>MPS-DE</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bello, Seth Anthony P.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Candoliota, Ma. Irinea S.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Cunanan, Melanio Louie G.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dapun, Ma. Victoria T.</p>
+                  </td>
+                  <td>
+                  <p>MAT Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dela Cruz, Estrella E.</p>
+                  </td>
+                  <td>
+                  <p>MS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Esmejada, Belen E.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Navarro, Elsie B</p>
+                  </td>
+                  <td>
+                  <p>MPS-DE</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Navarro, Frederick John B.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ocreto, Stella P.</p>
+                  </td>
+                  <td>
+                  <p>MS Agchemistry</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pascual, Lydia C</p>
+                  </td>
+                  <td>
+                  <p>MS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof.I V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pascual, Ronald</p>
+                  </td>
+                  <td>
+                  <p>MS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof.I V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Subsuban, Jose Ronelio M.</p>
+                  </td>
+                  <td>
+                  <p>MS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tumacder, Barbara C.</p>
+                  </td>
+                  <td>
+                  <p>MS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Zamora, Fealili E.</p>
+                  </td>
+                  <td>
+                  <p>BS Chemistry</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>English language and Literature Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="100">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ajero, Orfelina M.</p>
+                  </td>
+                  <td>
+                  <p>MA English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Amilbahar, Rezeille May C.</p>
+                  </td>
+                  <td>
+                  <p>ABEnglish</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Balawag, Elangbai K.</p>
+                  </td>
+                  <td>
+                  <p>MA English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Barbosa, Estella B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  </td>
+                  <td>
+                  <p>MEng Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bolences, Nora B.</p>
+                  </td>
+                  <td>
+                  <p>MA Language Studies</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Colita,Lloyd Anton Von M.</p>
+                  </td>
+                  <td>
+                  <p>MEng Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>De Guzman, Edna Luz T.</p>
+                  </td>
+                  <td>
+                  <p>MA English</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Derla, Michael D.</p>
+                  </td>
+                  <td>
+                  <p>MEng Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dollente, Lawrence Anthony U.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Gabuat, REuth S.</p>
+                  </td>
+                  <td>
+                  <p>MPS-Educational Mgt</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Juanitas, Evelyn T.</p>
+                  </td>
+                  <td>
+                  <p>MALT-English</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Lopez, Librado V.</p>
+                  </td>
+                  <td>
+                  <p>EdD-Educational Administration</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Melgar, Rhodora A.</p>
+                  </td>
+                  <td>
+                  <p>AB English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mendoza, Riceli C.</p>
+                  </td>
+                  <td>
+                  <p>PhD Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Associate Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pueyo, Jacinta T.</p>
+                  </td>
+                  <td>
+                  <p>PhD in Extension Education</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. 3</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Rapisura, Roviline A.</p>
+                  </td>
+                  <td>
+                  <p>PhD in Rural Development</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Resurreccion, Marlyn A.</p>
+                  </td>
+                  <td>
+                  <p>MA English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Salvador, Marlon T.</p>
+                  </td>
+                  <td>
+                  <p>MA Teaching</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tantiado, April Rose R.</p>
+                  </td>
+                  <td>
+                  <p>MEng Applied Linguistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tulud, Donnie M.</p>
+                  </td>
+                  <td>
+                  <p>MA English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Uyangurin, Anamarie B.</p>
+                  </td>
+                  <td>
+                  <p>BSE-English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Verona, Mirasol O.</p>
+                  </td>
+                  <td>
+                  <p>MALT-English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Filipino language and Literature Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Aquino, Winnie O</p>
+                  </td>
+                  <td>
+                  <p>MALT-Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ballo, Pearl Mae P.</p>
+                  </td>
+                  <td>
+                  <p>BSE Maj. In Filipino</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bangkulit, Noe-En</p>
+                  </td>
+                  <td>
+                  <p>MALT-Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Calibayan, Maria Luz D.</p>
+                  </td>
+                  <td>
+                  <p>Ed d</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dimaudtang, Shandra G.</p>
+                  </td>
+                  <td>
+                  <p>MALT</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Du, Nelia O</p>
+                  </td>
+                  <td>
+                  <p>MALT</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mangorsi, Jaypee M.</p>
+                  </td>
+                  <td>
+                  <p>BSE Maj. In Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mateo, Jackie-Lyn L.</p>
+                  </td>
+                  <td>
+                  <p>BSE Maj in Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pabinal,Normie G.</p>
+                  </td>
+                  <td>
+                  <p>MALT</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Reyes, Frirtz May A.</p>
+                  </td>
+                  <td>
+                  <p>AB Filipino</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Santos, Jo-Ann D.</p>
+                  </td>
+                  <td>
+                  <p>MALT_Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Siena, Cecil P.</p>
+                  </td>
+                  <td>
+                  <p>BSE Maj in Fil</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sison, Rosemarie R.</p>
+                  </td>
+                  <td>
+                  <p>MALT</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Development Communication Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dalo, Allan</p>
+                  </td>
+                  <td>
+                  <p>MS Rural Development candidate</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Facurib, Allan C.</p>
+                  </td>
+                  <td>
+                  <p>MS Rural Development<br /> candidate</p>
+                  </td>
+                  <td>
+                  <p>Instructor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Garcia, Althea C.</p>
+                  </td>
+                  <td>
+                  <p>MS Development Communacation</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Lucena, Esperanza Jr.</p>
+                  </td>
+                  <td>
+                  <p>MS-English</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Santos, Vilma M.</p>
+                  </td>
+                  <td>
+                  <p>MS Teaching English</p>
+                  </td>
+                  <td>
+                  <p>Instructor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Villanueva, Pamela</p>
+                  </td>
+                  <td>
+                  <p>MS Language Teaching</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Development Social Science and Philosophy</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Arrogante, Ariel</p>
+                  </td>
+                  <td>
+                  <p>MS Library Science Candidate</p>
+                  </td>
+                  <td>
+                  <p>College Librarian I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bauzon, Priscillano</p>
+                  </td>
+                  <td>
+                  <p>Ed.D in Educational Management</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Besana, Cerila</p>
+                  </td>
+                  <td>
+                  <p>MPS-DE</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bigcas, Ravin</p>
+                  </td>
+                  <td>
+                  <p>Units MA Management/MA Guidance and Counseling</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bueneventura, Ernesto Jr.</p>
+                  </td>
+                  <td>
+                  <p>MA in Public Administration</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bunil, LJ</p>
+                  </td>
+                  <td>
+                  <p>MA in Public Administration</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Catulong, Genevive</p>
+                  </td>
+                  <td>
+                  <p>Units in MLIS</p>
+                  </td>
+                  <td>
+                  <p>Librarian I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Clarito, Lilian</p>
+                  </td>
+                  <td>
+                  <p>Units in MLIS</p>
+                  </td>
+                  <td>
+                  <p>Librarian I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Clemen, Roselyn</p>
+                  </td>
+                  <td>
+                  <p>AB Political Science/BS Nursing/Bachelor of Laws</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Donque, Jeson</p>
+                  </td>
+                  <td>
+                  <p>MA Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dumagan, Nonita</p>
+                  </td>
+                  <td>
+                  <p>Ph.D in Educational Management</p>
+                  </td>
+                  <td>
+                  <p>Assistant Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Escarza, Bernard</p>
+                  </td>
+                  <td>
+                  <p>MA in Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Gavilan,Fairodz</p>
+                  </td>
+                  <td>
+                  <p>AB Sociology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Graza,Fretzy Mae</p>
+                  </td>
+                  <td>
+                  <p>BLIS</p>
+                  </td>
+                  <td>
+                  <p>Part Time</p>
+                  </td>
+                  <td>
+                  <p>Part Time</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Jose, Jomar</p>
+                  </td>
+                  <td>
+                  <p>BS International Relations</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Juaneza, Maricar</p>
+                  </td>
+                  <td>
+                  <p>MAin Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Makakena, Salik</p>
+                  </td>
+                  <td>
+                  <p>MA in Professional Studies-PAM</p>
+                  </td>
+                  <td>
+                  <p>Assitant Prof. I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mallo,Erwin</p>
+                  </td>
+                  <td>
+                  <p>AB Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Marco, Rumar</p>
+                  </td>
+                  <td>
+                  <p>AB Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Martinez, Susan</p>
+                  </td>
+                  <td>
+                  <p>MAED in Library Science</p>
+                  </td>
+                  <td>
+                  <p>College Librarian I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Marco, Rumar</p>
+                  </td>
+                  <td>&nbsp;</td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Martinez, Susan</p>
+                  </td>
+                  <td>
+                  <p>MAED in Library Science</p>
+                  </td>
+                  <td>
+                  <p>College Librarian I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Napoles, Kevin</p>
+                  </td>
+                  <td>
+                  <p>MA in Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Nune&ntilde;ez, Josef Tyron</p>
+                  </td>
+                  <td>
+                  <p>AB Political Science</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Osorio, Rizza</p>
+                  </td>
+                  <td>
+                  <p>AB Political Science</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Panaguiton, Luna</p>
+                  </td>
+                  <td>
+                  <p>AB Political Science</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Panes, Jarlito Jr.</p>
+                  </td>
+                  <td>
+                  <p>AB Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Rivera, Miraluna</p>
+                  </td>
+                  <td>
+                  <p>MA in Public Administration Candidate</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sapal, Maria Ruth</p>
+                  </td>
+                  <td>
+                  <p>MA in Public Administration Candidate</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sencil, Alimen</p>
+                  </td>
+                  <td>
+                  <p>Ph.D in Development Studies</p>
+                  </td>
+                  <td>
+                  <p>Assitant Prof. II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sinco, Jennifer</p>
+                  </td>
+                  <td>
+                  <p>MA in Teaching Philosophy</p>
+                  </td>
+                  <td>
+                  <p>Assitant Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Solsoloy, Bonifacio</p>
+                  </td>
+                  <td>
+                  <p>AB in Philo</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sornito, Anita</p>
+                  </td>
+                  <td>
+                  <p>Ed.D in Educational Management</p>
+                  </td>
+                  <td>
+                  <p>Assitant Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Mathematics and Statistics Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Catubig, Daryl Mae D.</p>
+                  </td>
+                  <td>
+                  <p>MST-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Coronejo,John R.</p>
+                  </td>
+                  <td>
+                  <p>BS Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dela Paz, Fortunette Grace R.</p>
+                  </td>
+                  <td>
+                  <p>BS Statistics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Eguia, Lopito C.</p>
+                  </td>
+                  <td>
+                  <p>PhD-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Prof.</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Licaros, Jeanette R.</p>
+                  </td>
+                  <td>
+                  <p>Ma-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Madio, Rowel P.</p>
+                  </td>
+                  <td>
+                  <p>MST-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Magallon, Mauricio Jr.</p>
+                  </td>
+                  <td>
+                  <p>BSE- BS-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Manamba, Regin N.</p>
+                  </td>
+                  <td>
+                  <p>&nbsp;BS Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Paleta, Leonard M.</p>
+                  </td>
+                  <td>
+                  <p>MST-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pama, Jennifer R.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D Mathematics Ed</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Perez, Bethoven Jr. L</p>
+                  </td>
+                  <td>
+                  <p>BS-Stat</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pilongo, Jupiter G.</p>
+                  </td>
+                  <td>
+                  <p>MS-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pimentel, Jonald L.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D Psychometrics</p>
+                  </td>
+                  <td>
+                  <p>Assoc. Prof I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sarmiento, Chelo May P.</p>
+                  </td>
+                  <td>
+                  <p>BS-Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sebastian, Anna Jean L.</p>
+                  </td>
+                  <td>
+                  <p>BS-Applied Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tandog, Leorence C.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D Science Educ.(Mathematics)</p>
+                  </td>
+                  <td>
+                  <p>Assoc. Prof V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tangonan, Evangeline A.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D Mathematics</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Toledo,Arnel B.</p>
+                  </td>
+                  <td>
+                  <p>Master in Mathematics 2013 MSUIIT</p>
+                  </td>
+                  <td>
+                  <p>Instructor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Valle, Honey Vincent V.</p>
+                  </td>
+                  <td>
+                  <p>BS-Stat</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Villaver, Vic Vincent N.</p>
+                  </td>
+                  <td>
+                  <p>MST-Mat</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Physics Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Arellano, Louie Bjan</p>
+                  </td>
+                  <td>
+                  <p>MSTP units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Entera, Benedict D.</p>
+                  </td>
+                  <td>
+                  <p>MST units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Libatique, Romeo David T.</p>
+                  </td>
+                  <td>
+                  <p>MST units</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Maganaka, Jean R.</p>
+                  </td>
+                  <td>
+                  <p>MS Physics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mateo, Romeo</p>
+                  </td>
+                  <td>
+                  <p>BSAE</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Nonesa, Jellay Grace B.</p>
+                  </td>
+                  <td>
+                  <p>PhD Physics</p>
+                  </td>
+                  <td>
+                  <p>Assoc. Prof. III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tagaro, Alipio T.</p>
+                  </td>
+                  <td>
+                  <p>MSTP/MASE units</p>
+                  </td>
+                  <td>
+                  <p>Asso. Prof. V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Vallescas, Juvy A.</p>
+                  </td>
+                  <td>
+                  <p>BS Physics</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Psychology Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Agave, Aileen B</p>
+                  </td>
+                  <td>
+                  <p>MS in Psychology units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Garcia, Kristine Joy B.</p>
+                  </td>
+                  <td>
+                  <p>MS in Psychology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Indin, Yusuf H.</p>
+                  </td>
+                  <td>
+                  <p>Doctor of Psychology<br /> On Going</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Molina, Jerose L.</p>
+                  </td>
+                  <td>
+                  <p>Doctor of Psychology On Going</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Toyongan, Virginia U. (on leave)</p>
+                  </td>
+                  <td>
+                  <p>Doctor of Psychology On Going</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ulangkaya, Mila</p>
+                  </td>
+                  <td>
+                  <p>MPS-1996 USM</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof. IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>Criminology Department</strong></p>
+                  <p>&nbsp;</p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td width="250">
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width="250">
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width="120">
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width="200">
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Apostol, Candida C</p>
+                  </td>
+                  <td>
+                  <p>BS Criminology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>De Justo, Helen Grace A.</p>
+                  </td>
+                  <td>
+                  <p>Master of Public Administration</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ferrer, Bobby A.</p>
+                  </td>
+                  <td>
+                  <p>33 units in MS criminology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Mamugay, Gehan B</p>
+                  </td>
+                  <td>
+                  <p>18 units in MS criminology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Martinez, Michael Angelo R.</p>
+                  </td>
+                  <td>
+                  <p>BS Criminology/Units in BS Liberal Laws</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Motalo, Ronith</p>
+                  </td>
+                  <td>
+                  <p>MS Criminology</p>
+                  </td>
+                  <td>
+                  <p>Part Time</p>
+                  </td>
+                  <td>
+                  <p>Part Time</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Parcon, Mariz</p>
+                  </td>
+                  <td>
+                  <p>BS Criminology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Parcon, Mariz</p>
+                  </td>
+                  <td>
+                  <p>BS Criminology</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contractual</p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong>&nbsp;</strong></p>
+                  `+
+                  "<p></p>";
 
                 break;
             case "College of Agriculture Kabacan, Cotabato":
@@ -349,6 +2654,909 @@ function hideModal() {
                 "<p>l.	Plantation Crops Production and Management – 1 year</p>"+
                 "<p>m.	Rubber Technology – 6 month</p>"+
                 "<p></p>"+
+                "<p>Faculties</p>"+
+                `
+                  <table>
+                  <thead>
+                  <tr>
+                  <td width='250'>
+                  <p><strong>Name</strong></p>
+                  </td>
+                  <td width='250'>
+                  <p><strong>Highest Educational Attainment</strong></p>
+                  </td>
+                  <td width='120'>
+                  <p><strong>Rank</strong></p>
+                  </td>
+                  <td width='200'>
+                  <p><strong>Status of Appointment</strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Alagano, Artemio C.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Alejandro, Fabiola R.</p>
+                  </td>
+                  <td>
+                  <p>MS Ed.D. Units</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Atok, Geoffray R.</p>
+                  </td>
+                  <td>
+                  <p>PhD. Agricultural Science</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Balala, Moveta P.</p>
+                  </td>
+                  <td>
+                  <p>MS, Ph. D. units</p>
+                  </td>
+                  <td>
+                  <p>Professor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bansilan, Bandao L.</p>
+                  </td>
+                  <td>
+                  <p>MS Ed.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bassal, Myrna G.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Basser, Mamalac L.</p>
+                  </td>
+                  <td>
+                  <p>BSA</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contract of Service</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Basilio, Nenita M.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor 1</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Batomalaque, Emiliana G.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Asst Prof IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bravo, Concepcion R.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Bugarin, Napoleon G</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Asso Prof IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Cabantug, Rezin G.</p>
+                  </td>
+                  <td>
+                  <p>BSA</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contract of Service</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Cahatian, Purificacion O.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Calvo, Alfredo F.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agri Science</p>
+                  </td>
+                  <td>
+                  <p>Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Calvo, Ariston D.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>University Professor</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Calvo, Baudilla S.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agri Science</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ca&ntilde;olas, Mary Joy S.</p>
+                  </td>
+                  <td>
+                  <p>MS, PhD Rural Economic Development</p>
+                  </td>
+                  <td>
+                  <p>Instructor</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Cena, Romulo L</p>
+                  </td>
+                  <td>
+                  <p>PhD.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Dela Torre, William F.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Descalsota, Gloria L.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Professor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Descalsota Gwen Iris L.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Ele, Julius Jerome G.</p>
+                  </td>
+                  <td>
+                  <p>PhD Agri Science</p>
+                  </td>
+                  <td>
+                  <p>Assistant Prof II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Escalera, Cyra Mae R.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Esteban, Evelyn P.</p>
+                  </td>
+                  <td>
+                  <p>MPS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Evangelista, Celso C.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Evangelista, Conrado C.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Evangelista, Raquel B</p>
+                  </td>
+                  <td>
+                  <p>Ph.D Agriculture</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Evangelista, RC Jan B.</p>
+                  </td>
+                  <td>
+                  <p>BSA MS Units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Garcia, Adeflor G.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Hondrade, Edwin G.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Hondrade, Rosa Fe D.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Imlan, Jurhamid C.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Jover, Edna M.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agriculture</p>
+                  </td>
+                  <td>
+                  <p>Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Laga&ntilde;a, Evelyn M.</p>
+                  </td>
+                  <td>
+                  <p>BSA MS Units</p>
+                  </td>
+                  <td>
+                  <p>Assistant Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Maarat, Carlito A.</p>
+                  </td>
+                  <td>
+                  <p>MPS</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Maarat Clark I.</p>
+                  </td>
+                  <td>
+                  <p>BSA MSU Units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Macalolot, Dynah Jayne L.</p>
+                  </td>
+                  <td>
+                  <p>BSAH</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contract of Service</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Magulama, Efren E.</p>
+                  </td>
+                  <td>
+                  <p>MS, Ph.D Cand.</p>
+                  </td>
+                  <td>
+                  <p>Professor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Malacad, Elizabeth D.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Malinao, Milagros S.</p>
+                  </td>
+                  <td>
+                  <p>MS, Ph.D. units</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Manceras, Amancio D.</p>
+                  </td>
+                  <td>
+                  <p>MS Ed.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Manceras, Rhodora S.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Meriales, Sharon I.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Migalbin, Josephine R.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agri. Science</p>
+                  </td>
+                  <td>
+                  <p>Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Nicor, Flora P.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agriculture</p>
+                  </td>
+                  <td>
+                  <p>Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Oliva, Vic Laurence P.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pagdato, Mark Angelo C</p>
+                  </td>
+                  <td>
+                  <p>BSA</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contract of Service</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Papalid, Leonila V.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pomares, Cayetano C.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>University Professor</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Pomares, Milagrina P.</p>
+                  </td>
+                  <td>
+                  <p>BS, MS Cand.</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor II</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Quisado, Joeseph S.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Roca, Harem R.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor V</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sales, Emma K.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor Vl</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sales, Mel Chrisel A.</p>
+                  </td>
+                  <td>
+                  <p>BSA MS Units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Contract of Service</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Sapal, Bedo K.</p>
+                  </td>
+                  <td>
+                  <p>MS/MPS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor IV</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Silvestre, Jaime C</p>
+                  </td>
+                  <td>
+                  <p>PhD Ed.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Solpot, Tamie C.</p>
+                  </td>
+                  <td>
+                  <p>BSA MS Units</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Superioridad, Ronald D.</p>
+                  </td>
+                  <td>
+                  <p>BSA</p>
+                  </td>
+                  <td>
+                  <p>Instructor I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Taposok, Luz A.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Testado, Anita M.</p>
+                  </td>
+                  <td>
+                  <p>MS</p>
+                  </td>
+                  <td>
+                  <p>Associate Professor III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Tolentino, Leonila M.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Asst. Prof I</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Turnos, Nicolas A.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D.</p>
+                  </td>
+                  <td>
+                  <p>Professor VI</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <p>Vergara, Eulalio Jr. M.</p>
+                  </td>
+                  <td>
+                  <p>Ph.D. Agri Science</p>
+                  </td>
+                  <td>
+                  <p>Asso Prof III</p>
+                  </td>
+                  <td>
+                  <p>Permanent</p>
+                  </td>
+                  </tr>
+                  </thead>
+                  </table>
+                  `+
                 "<p></p>";
 
               break;
@@ -414,13 +3622,272 @@ function hideModal() {
                 "</ul>"+
 
                 "<p></p>"+
+                `
+                <p><strong>Faculties</strong></p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>
+                <p>BARRIENTOS, DANTE M.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education<br />Master in Technician Teacher Education (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>CABAHUG, RENE JR., C.</p>
+                </td>
+                <td>
+                <p>Bachelor of Technical Teacher Education</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>CALABIT, MARCELO C.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master of Vocational Education</p>
+                </td>
+                <td>
+                <p>Instructor III</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>COSTES, ANTONINO B.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master of Professional Studies-Development Education Doctor of Philosophy</p>
+                </td>
+                <td>
+                <p>Asso. Professor III</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>DESCALLAR, ZHERWIN R</p>
+                </td>
+                <td>
+                <p>Bachelor of Industrial Technology<br />Master of Arts in Teaching Industrial Arts (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>ESBERTO, MA. DELY P.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Civil Engineering<br />Master of Science in Civil Engineering<br />Doctor of Philosophy (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>FORRO, ORLANDO B.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education<br />Master of Arts in Teaching Industrial Arts</p>
+                </td>
+                <td>
+                <p>Asst. Professor IV&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>FORTINEZ, JP E.</p>
+                </td>
+                <td>
+                <p>Bachelor of Interior Design</p>
+                <p>Master of Arts in Fine Arts and Design</p>
+                </td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>GORNEZ, ROBERTO L.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master in Technician Teacher Education</p>
+                </td>
+                <td>
+                <p>Asso. Professor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>LAVALLE, ULDARICO JR., E.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master in Arts in Teaching Industrial Arts</p>
+                </td>
+                <td>
+                <p>Asst. Professor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>MISANES, JOEL V.</p>
+                </td>
+                <td>
+                <p>Bachelor of Industrial Technology</p>
+                <p>Master in Industrial Technology</p>
+                <p>Doctor of Philosophy-Technological Education Management (on-going)</p>
+                </td>
+                <td>
+                <p>Asst. Professor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>NERAL, GEORGE Q.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master of Professional Studies-Development Education</p>
+                </td>
+                <td>
+                <p>Asso. Prof. II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>PRESTO, SOLOMON L.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master of Arts in Teaching Industrial Arts</p>
+                </td>
+                <td>
+                <p>Asso. Professor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>RAPUZA, SAMSON C.</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in Industrial Education</p>
+                <p>Master of Professional Studies-Development Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>SADULANG, ARIEL E.</p>
+                </td>
+                <td>
+                <p>Bachelor of Industrial Technology</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>TAYONG, MANUEL J.</p>
+                </td>
+                <td>
+                <p>Bachelor of Industrial Education</p>
+                </td>
+                <td>
+                <p>Asst. Professor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p><strong>&nbsp;</strong></p>
+                `+
                 "<p></p>";
               break;
 
             case "College of Business Development Economics and Management Kabacan, Cotabato":
               image1.src = "img/CBDEM.png";
               title1.innerHTML = "College of Business Development Economics and Management ";
-              p1.innerHTML = "<p>The College of Business, Development Economics and Management of the University of Southern Mindanao (CBDEM-USM) was known before as the Institute of Development Economics and Management (IDEM) since it was separated from its mother college the College of Agriculture on December 10, 1992. IDEM was converted into CBDEM through BOR Resolution # 9, series of 2008. Behind is a social mission to have a curricular offering hasten the socio-economic development in Central Mindanao by producing graduates who are equipped with knowledge, skills and attitude to render public services to realize strong, effective and efficient governance.</p>"+
+              p1.innerHTML =
+                "<p>The College of Business, Development Economics and Management of the University of Southern Mindanao (CBDEM-USM) was known before as the Institute of Development Economics and Management (IDEM) since it was separated from its mother college the College of Agriculture on December 10, 1992. IDEM was converted into CBDEM through BOR Resolution # 9, series of 2008. Behind is a social mission to have a curricular offering hasten the socio-economic development in    Central Mindanao by producing graduates who are equipped with knowledge, skills and attitude to render public services to realize strong, effective and efficient governance.</p>"+
                 "<p>The College has five departments, namely: Department of Agribusiness, Department of Agricultural Economics, Department of Development Management, Department of Business Administration and the Department of Accountancy. It offers five baccalaureate programs include Bachelor of Science in Agribusiness, Bachelor of Science in Agricultural Economics, Bachelor of Science in Bachelor of Science in Development Management, Bachelor of Science in Business Administration, and the Bachelor of Science in Accountancy. The graduate offerings are Master of Science in Agricultural Economics (MS AgEcon), Master of Science in Rural Economic Development (MSRED), Master in Public Administration (MPA) and Doctor of Philosophy in Rural Development (PhD RD.</p>"+
                 "<p>The College was known to have the highest enrolment in the campus. In terms of accreditation, there were 2 programs recently visited for Level III Phase I on BS Agribusiness and BS AgEcon. The BS in Development Management is on Level I status while BS Business Administration and BS Accountancy are on preliminary visit status.</p>"+
                 "<pThere were 44 strong faculty members who are holders of relevant Master’s and Doctoral degrees. Of those faculty members, 8 were doctoral degree holders, 17 master’s degree holders and 19 were continuing their studies. Eighteen (18) faculty members were under Contract of Service (COS) and the rest were on permanent status. The admission requirements and policies which are adopted by the college were the same with those of the university.</p>"+
@@ -452,6 +3919,450 @@ function hideModal() {
                 "</ul>"+
 
                 "<p></p>"+
+                `
+                <p><strong>Faculties</strong>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Abidong, Helen A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Agustin, Roszhien M.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Alba, Mitzi Aileen M.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Amolo, Herson B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Amolo, Sandra Angela G.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bagonoc, Lian D.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bangcaya, Jared Virgil A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Basan, Romiel John P.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Belgira, R-nel R.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bolotaolo, Kathleen Ivy Z.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Candari, K-phren D.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Cariaga, Mary Rodelyn A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dapon, Victor C.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dapun, Lope E.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dela Pe&ntilde;a, Gloria L.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Professor</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dela Vi&ntilde;a, Nerissa G.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Duka, Jeannie U.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ellorimo, Ronel L.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Enock, Jul-aida U.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Fajarito, Jr., Irving T.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Gabronino, Gloria L.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Garcia, Francisco Gil N.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Gomez, Norma U.</p>
+                </td>
+                <td>
+                <p>PhD.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Gonzales, Analyn</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Guiamal, Magdalena A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Gumansing-Gunsayan, Esmaira D.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Lim, Ma. Evelia Z.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Professor</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Literal, Vergil Joseph I.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Llanto, Jhon Dave E.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Logronio, Metche Anne C.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mag-aso, Jenneth R.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Malunes, Loel</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Marohom, Jalaloden B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Neyra, Rhenalie T.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Osorio, Rizza L.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Panaguiton, Rey L.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Puzon, Noreen Faithe</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Quiambao, Charisse Angela S.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Talungon, Carl Ceasar</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Valdez, Lorna G..</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p>&nbsp;</p>
+
+                `+
+
                 "<p></p>";
 
               break;
@@ -508,6 +4419,589 @@ function hideModal() {
                 "</ul>"+
 
                 "<p></p>"+
+                `
+                <p>Faculties</p>
+                <p>&nbsp;</p>
+                <p><strong>Elementary Department</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Aguanan, JB Loraine O.</p>
+                </td>
+                <td>
+                <p>BSE-Social Studies</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Baylon, John P.</p>
+                </td>
+                <td>
+                <p>Ed.D. Academic Requirements</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Galang, Margie B.</p>
+                </td>
+                <td>
+                <p>Ed.D. Academic Requirements</p>
+                </td>
+                <td>
+                <p>Asso. Prof. III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Galla, Sindaolan D.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Makalugi, Abdulnasser G.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mantawil, Bailyn M.</p>
+                </td>
+                <td>
+                <p>Masters in Educ'l Studies</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Paidomama, Sandra M.</p>
+                </td>
+                <td>
+                <p>Ed.D. Units</p>
+                </td>
+                <td>
+                <p>Asst. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Piang, Farida Y.</p>
+                </td>
+                <td>
+                <p>MPS-DE, Educ'l Management</p>
+                </td>
+                <td>
+                <p>Asso. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Regulacion, Jay G.</p>
+                </td>
+                <td>
+                <p>MAT-Bio Units</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Salinas, Rosella F.</p>
+                </td>
+                <td>
+                <p>MALT-Filipino Acad. Requirements</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Taposok, Omer D.</p>
+                </td>
+                <td>
+                <p>Ed.D. Units</p>
+                </td>
+                <td>
+                <p>Asso. Prof. V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Taran, Elvina</p>
+                </td>
+                <td>
+                <p>BSE-Physical Science</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p><strong>Secondary Department</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Almazan, Sonia F.</p>
+                </td>
+                <td>
+                <p>MA Music &ndash; Conducting</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Apiado, Mark</p>
+                </td>
+                <td>
+                <p>BS Electronics Communication Engineering</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bana-ay, Dyane Rhea B.</p>
+                </td>
+                <td>
+                <p>MAED</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Batapa, Girlie D.</p>
+                </td>
+                <td>
+                <p>MMME</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Blonto, Amme Rose L.</p>
+                </td>
+                <td>
+                <p>MALT</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Buned, Faith P.</p>
+                </td>
+                <td>
+                <p>ME Major in Early Childhood Education</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Cabiao, Alicia C.</p>
+                </td>
+                <td>
+                <p>PhD. AgEd / Ed.D. (pursuing)</p>
+                </td>
+                <td>
+                <p>Asso. Prof. V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mangindra, Norquez M.</p>
+                </td>
+                <td>
+                <p>Ed.D. (Educ'l Mgt)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Migalbin, Regine Joyce G.</p>
+                </td>
+                <td>
+                <p>BSE-MAPEH</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Reyno, Winnie T.</p>
+                </td>
+                <td>
+                <p>Ed.D. Units</p>
+                </td>
+                <td>
+                <p>Asst. Prof IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sabutan, Joy Gloria P.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Prof. V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Soriano, Hazel Ann S.</p>
+                </td>
+                <td>
+                <p>Ed.D. (Educ'l Mgt)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ticbe, Gerlie E.</p>
+                </td>
+                <td>
+                <p>MAED (Teaching Science)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Vargas, Guillerma M.</p>
+                </td>
+                <td>
+                <p>MPS-DE</p>
+                </td>
+                <td>
+                <p>Asst. Prof IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p><strong>Professional Education Department</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="100">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bello, Mario M. Jr.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Crase, Erlmarie P.</p>
+                </td>
+                <td>
+                <p>Masters of Arts Teaching Computer Science</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Escanilla, Kister Quinn</p>
+                </td>
+                <td>
+                <p>Bachelor of Elementary Education</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Estilloso, Eimer M.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Farala, Ellen Joy M.</p>
+                </td>
+                <td>
+                <p>MAT-Bio. Academic Requirements</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Intero, Jenevel I.</p>
+                </td>
+                <td>
+                <p>BSE-Mathematics</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Kulano, Kautin S.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Millare, Jean M.</p>
+                </td>
+                <td>
+                <p>BS Food Tech /MA Education units</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Pataray, Ma. Lezel P.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Instructor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ramos, Augustus Venancio B.</p>
+                </td>
+                <td>
+                <p>Masters of Science in Educ'l Measurement</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sales, Ma. Leslie C.</p>
+                </td>
+                <td>
+                <p>Doctor of Education</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>&nbsp;</p>
+                `+
                 "<p></p>";
 
               break;
@@ -550,13 +5044,779 @@ function hideModal() {
                 "</ul>"+
 
                 "<p></p>"+
+                `
+                <p><strong>Faculties</strong></p>
+                <h3>Department of&nbsp;<strong>Agricultural and Biosystems Engineering (DABE)</strong></h3>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Alucilja, Renel M.</p>
+                </td>
+                <td>
+                <p>Master of Science in Agricultural Engineering</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Asca&ntilde;o, Tomasito C.</p>
+                </td>
+                <td>
+                <p>BS in Agricultural Engineering</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Belgira, Nelson M.</p>
+                </td>
+                <td>
+                <p>PhD in Physics</p>
+                </td>
+                <td>
+                <p>Asso. Prof V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Boclaras, Romulo P.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Gamido, Joy Sharon B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Marasigan, Crisostomo S., Jr.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asst. Prof III&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ocreto, Melanie B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ocreto, Arnulfo B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>&nbsp;Asso. Prof I</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ortiza, Shieryl P.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Painagan, Marilyn</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Saliling, Willie Jones B.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asso. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Tangonan, Rommel G.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Prof. VI&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Tolentino, Nemesio M.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asso. Prof. V&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Villaruz, Honorato A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asst. Prof II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <h3>Department of&nbsp;<strong>Civil Engineering (DCE)</strong></h3>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Alucilja, Kathleen Mae B.</p>
+                </td>
+                <td>
+                <p>Master in Information Systems</p>
+                </td>
+                <td>
+                <p>Instructor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Amilbahar, Saque J. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </td>
+                <td>
+                <p>Master in Engineering Program - Civil Engineering (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Benito, Cristoper A</p>
+                </td>
+                <td>
+                <p>Master of Science in Teaching Mathematics</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dapun, Bernadeth V.</p>
+                </td>
+                <td>
+                <p>Master in Engineering - Rural Infrastructure (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Garbin, Ronald A.</p>
+                </td>
+                <td>
+                <p>Master of Science in Civil Engineering - (Candidate)</p>
+                </td>
+                <td>
+                <p>Instructor III&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mantawil, Chrislam S.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof IV&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sebastian, Myrafe</p>
+                </td>
+                <td>
+                <p>Master of Science in Environmental Resource Management</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <h3>Department of&nbsp;<strong>Electronics and Communications Engineering (DECE)</strong></h3>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="100">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dayaday, Maricel G.</p>
+                </td>
+                <td>
+                <p>Doctor in Technology Education - Candidate</p>
+                </td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ulep, Geraldo P.</p>
+                </td>
+                <td>
+                <p>Doctor in Educational Management - Candidate</p>
+                </td>
+                <td>
+                <p>Asst. Prof III</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Pelaez, Juneph F.</p>
+                </td>
+                <td>
+                <p>MS in Electrical &amp; Electronics Engineering - Major in Robotics &amp; Image Processing (Candidate)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Robles, Maria Cristina T</p>
+                </td>
+                <td>
+                <p>BS in Electronics &amp; Communications Engineering</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <h3>Department of&nbsp;<strong>Computer Engineering (DCoE)</strong></h3>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="100">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Cordero, Melecio A. Jr.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Pascua, Floreey Mae F.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Lunod, Jeannalen P.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </td>
+                <td>
+                <p>Master in Engineering - Major in Computer Engineering</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>&nbsp;Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Serqui&ntilde;a, James P.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof IV</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <h3>Department of&nbsp;<strong>Computing and Library Information Science (DCLIS)</strong></h3>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Agbunag, Arjay S.</p>
+                </td>
+                <td>
+                <p>Master in Information Systems (on-going)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Alcala, Astrofil Hyde M.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ambrosio, Arnel F.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Arellano, Alberto C.</p>
+                </td>
+                <td>
+                <p>Master in Statistics</p>
+                </td>
+                <td>
+                <p>Asso. Prof. IV&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Arrogante, Ariel P.</p>
+                </td>
+                <td>
+                <p>&nbsp;</p>
+                </td>
+                <td>
+                <p>College Librarian I/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Catulong, Genevive P.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Librarian I/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Clarito, Lilian M.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>College Librarian I/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Corpuz, Nor-Aine M.</p>
+                </td>
+                <td>
+                <p>Master in Information Science (CAR)</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Daffon, Catherine C.</p>
+                </td>
+                <td>
+                <p>Master in Information Technology (Candidate)</p>
+                </td>
+                <td>
+                <p>Asst. Prof I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Flores, Danilyn A.</p>
+                </td>
+                <td>
+                <p>Master in Information Technology&nbsp;</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Garcia, Dielita M.</p>
+                </td>
+                <td>
+                <p>&nbsp;</p>
+                </td>
+                <td>
+                <p>Librarian I/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Genotiva, Elizabeth R.</p>
+                </td>
+                <td>
+                <p>Master in Information Technology</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Lorilla, Joseph C.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Martinez, Susan S.</p>
+                </td>
+                <td>
+                <p>&nbsp;</p>
+                </td>
+                <td>
+                <p>College Librarian II/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mibalo, Alvin C.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof. I</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Oliva, Virgilio P. Jr.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asso. Prof. III</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Palmaera, Janice T.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ranjo, Eugene G.</p>
+                </td>
+                <td>
+                <p>Master in Information Management</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sornito, Anita C.</p>
+                </td>
+                <td>
+                <p>&nbsp;</p>
+                </td>
+                <td>
+                <p>Asso. Prof. I/BLIS Faculty</p>
+                </td>
+                <td>
+                <p>Part Time</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Viloria, Aljon A.</p>
+                </td>
+                <td>
+                <p>BS in Computer Science</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>&nbsp;</p>
+                `+
+
                 "<p></p>";
 
               break;
             case "College of Human Ecology and Food Sciences Kabacan, Cotabato":
               image1.src = "img/CHEFS.png";
               title1.innerHTML = "College of Human Ecology and Food Sciences ";
-              p1.innerHTML = "<p>The College of Human Ecology and Food Sciences is one of the original units of the university. It started as a Department called Home Technology in 1956. Two curricular offerings, the Bachelor of Science in Home Technology and Associate in Home Technology were the original course offerings. The year 1960 marked the emerging of discipline improvements. Two degree programs were offered, the Bachelor of Science in Home Economics and Bachelor of Science in Agricultural Home Economics. The former was intended for teacher educations while the latter for extension and related areas of specialization. In like manner, the department was also given a new name called the Department of Home Economics.</p>"+
+              p1.innerHTML =
+                "<p>The College of Human Ecology and Food Sciences is one of the original units of the university. It started as a Department called Home Technology in 1956. Two curricular offerings, the Bachelor of Science in Home Technology and Associate in Home Technology were the original course offerings. The year 1960 marked the emerging of discipline improvements. Two degree programs were offered, the Bachelor of Science in Home Economics and Bachelor of Science in Agricultural Home Economics. The former was intended for teacher educations while the latter for extension and related areas of specialization. In like manner, the department was also given a new name called the Department of Home Economics.</p>"+
                 "<p>Sixteen years later (1976) the clamor for a special program for non-NCEE passers pressed the offering of Post - Secondary Vocational Home Economics (PSVHE) and in 1978, upon conversion of the school into a University, the Department was elevated into a College. In June 1977, the Bachelor of Science in Foods and Nutrition was offered but upon revision of its curriculum and recommendation from the Board of Nutrition, it was later changed to Bachelor of Science in Nutrition and Dietetics (1981).</p>"+
                 "<p>The Post-Secondary Vocational Home Economics was ultimately phased out in 1982 and a year later (1983), the Bachelor of Science in Agricultural Home Economics was renamed to Bachelor in Home Science Extension. After seven (7) years (1990) however, the original name Bachelor of Science in Home Technology was reconsidered and approved for use. Two changes in unit name occurred: in 1984 it was called the College of Human Ecological Sciences (CHES) and in June 1993, upon approval of Memo Order no. 27 and BOR Resolution no. 12, in 1992, the College was renamed College of Human Ecology and Food Sciences (CHEFS). This was to keep abreast with the changing times thus making the college more viable to its clienteles.</p>"+
                 "<p>In 1995, another degree program, the Bachelor of Science in Food Technology was offered to hopefully supply the manpower needs of several food processing plants located in the East Asian Growth Area (EAGA) of Mindanao. SY 2002-2003 marked another milestone, the Bachelor of Science in Hotel and Restaurant Management was offered vice the gradual phasing out of Bachelor of Science in Home Technology. On the other hand, the Bachelor of Science in Home Economics was realigned with the College of Education starting S.Y. 2004-2005 in compliance with the Commission on Higher Education (CHED) mandate of altogether grouping teacher education courses.</p>"+
@@ -583,6 +5843,311 @@ function hideModal() {
                 "<li>Bachelor of Science in Travel Management</li>"+
                 "</ul>"+
                 "<p></p>"+
+                `
+                <p><strong>Faculties</strong></p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Alim, Aldrin T.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bade, Leolean Nyle D.</p>
+                </td>
+                <td>
+                <p>MS-FT (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Beda&ntilde;o, Joseph Jev</p>
+                </td>
+                <td>
+                <p>MPA (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Basoy, Jigzcel Divine F.</p>
+                </td>
+                <td>
+                <p>MS-CN</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bautista, Jmjson C.</p>
+                </td>
+                <td>
+                <p>MS-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Basilio, Dianne Cristel M.</p>
+                </td>
+                <td>
+                <p>MBA-Tourism</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Bebit, Shirl Mae M.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Biado, Emily M.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Cabornida, Ivy Mar B.</p>
+                </td>
+                <td>
+                <p>MS Horticulture</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Centino , Gracel G.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dulay , Cheryl Y.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Moscoso , Leila S.</p>
+                </td>
+                <td>
+                <p>MS-FS</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Nacar, Urduja G.</p>
+                </td>
+                <td>
+                <p>EdD</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Odi, Erlinda R.</p>
+                </td>
+                <td>
+                <p>MA-HE</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Palapar, Melchie G.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Piosca, Rosyell Angelo N.</p>
+                </td>
+                <td>
+                <p>MBA-Tourism (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Paclibare, Hazel V.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Revilla, Apple P.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Rodulfa, Agnes A.</p>
+                </td>
+                <td>
+                <p>MAEd</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Roy, Avegale S.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Samblace&ntilde;o, Meldred F.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sarmiento, Aileen P.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Valmores, Preciosa B.</p>
+                </td>
+                <td>
+                <p>MBA-HRM</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Viloria, Tessie G.</p>
+                </td>
+                <td>
+                <p>PhD</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p>&nbsp;</p>
+
+                `+
                 "<p></p>";
 
               break;
@@ -597,6 +6162,141 @@ function hideModal() {
                 "<p>It was realized however, that the present set-up of the unit of is working against the objective of the University, i.e.:  to create a strong impact in the said field of specialization.  To satisfy the requirement set by the Technical Panel for Agricultural Education, Resolution No. 24, s, 1994 recommended the conversion of the Institute of Veterinary Medicine to Regents of the University of Southern Mindanao held at DECS Office Ultra, Pasig City o November 10, 1994.</p>"+
                 "<p>The college was presented an Award of Distinction as Center of Excellence of Doctor of Veterinary Medicine with all the rights and privileges effective February 27,2009 to February 27,2012 by the Office of the President and the Commission on Higher Education. The College was also awarded level III accredited in its Doctor of Veterinary Medicine Program by the AACCUP, Inc.</p>"+
                 "<p></p>"+
+                `<p><strong>The following served as stewards of the institution:</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td colspan="3" width="550">
+                <p><strong>&nbsp;</strong></p>
+                </td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p>Dr. Antonio H. Cambel</p>
+                </td>
+                <td>
+                <p>Department Chairman<br />Department of Veterinary Medicine<br />College of Agriculture</p>
+                </td>
+                <td>
+                <p>1980 &ndash; 1986</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Jane C. Bacayo</p>
+                </td>
+                <td>
+                <p>Director-Institute of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>1986 &ndash; 1989</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Bernabe C. Santos</p>
+                </td>
+                <td>
+                <p>Director-Institute of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>1989 &ndash; 1991</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Al G. Gonzales</p>
+                </td>
+                <td>
+                <p>Director-Institute of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>1991 &ndash; 1992</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Gilbert N. Buenviaje</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>1992 &ndash; 1995</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Jesus Antonio G. Derije</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>1995 &ndash; 2000</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Elsa A. Gonzaga</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>2000 &ndash; 2002</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Gilbert N. Buenviaje</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>2002 &ndash; 2004</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Emerlie R. Okit</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>2004 &ndash; 2009</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Elizabeth C. Molina</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>2009 &ndash; 2011</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dr. Emerlie R. Okit</p>
+                </td>
+                <td>
+                <p>Dean-College of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>2011 &ndash; Present</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>&nbsp;</p>`+
                 "<p></p>"+
                 "<p></p>"+
 
@@ -618,13 +6318,205 @@ function hideModal() {
                 "<li>•	Veterinary Aide* (1 year) </li>"+
                 "</ul>"+
                 "<p></p>"+
+                `
+                <h3>CVM Faculty</h3>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>
+                <p>ARROGANTE,&nbsp; ARIEL P.</p>
+                </td>
+                <td>
+                <p>Master of Library &amp; Information Science(candidate)</p>
+                </td>
+                <td>
+                <p>CVM Librarian</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>FLORES, JOSEPHINE&nbsp; R.</p>
+                </td>
+                <td>
+                <p>Master of Veterinary Science</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>FLORES, VRENELIE II&nbsp;&nbsp; D.</p>
+                </td>
+                <td>
+                <p>Doctor of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>Instructor III</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>GARDUQUE,&nbsp; ROLANDO&nbsp;&nbsp; J.</p>
+                </td>
+                <td>
+                <p>Master of Professional Studies-Agriculture</p>
+                </td>
+                <td>
+                <p>Asso Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>GONZAGA,&nbsp; ELSA&nbsp; A.</p>
+                </td>
+                <td>
+                <p>Ph.D. in Agricultural Sciences (An. Sc.) (candidate)</p>
+                </td>
+                <td>
+                <p>Professor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>JIMENEZ,&nbsp; VINGELLE&nbsp; B.</p>
+                </td>
+                <td>
+                <p>MS in Animal Pathology</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>JUNATAS,&nbsp; KHAN&nbsp; L.</p>
+                </td>
+                <td>
+                <p>Doctor of Veterinary Medicine</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>&nbsp;</td>
+                </tr>
+                <tr>
+                <td>
+                <p>LUMBAO, LILIAN A.</p>
+                </td>
+                <td>
+                <p>Master of Science in Animal Science</p>
+                </td>
+                <td>
+                <p>Asst. Prof. IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>MOLINA,&nbsp; ELIZABETH&nbsp; C.</p>
+                </td>
+                <td>
+                <p>Ph D Veterinary Science (Parasitology &amp; Immunology)</p>
+                </td>
+                <td>
+                <p>Asso. Prof. V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>OKIT,&nbsp; EMERLIE&nbsp; R.</p>
+                </td>
+                <td>
+                <p>Ph.D.&nbsp; Animal Science(Animal Reproductive Physiology)</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>PANES,&nbsp; TERESITA&nbsp; S.</p>
+                </td>
+                <td>
+                <p>MPS in Agriculture - Major in Animal Science&nbsp;</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>SANCHEZ, CARLITO&nbsp; B.</p>
+                </td>
+                <td>
+                <p>Master of Veterinary Studies (Farm Animal Medicine)</p>
+                </td>
+                <td>
+                <p>Asso. Prof. V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>&nbsp;</p>
+                `+
                 "<p></p>";
 
               break;
             case "7.117169, 124.832306":  //ISPEAR
               image1.src = "img/ISPEAR.png";
               title1.innerHTML = "College of Sports, Physical Education and Recreation Center  ";
-              p1.innerHTML = "<p>The Sports, Physical Education and Recreation Center (SPERC) which was created in January 1985 were eventually converted to Institute of Sports, Physical Education (ISPEAR) by virtue of Board Resolution No. 12. s. 1992 as approved by the Board of Regents of December 10, 1992. As a service unit of the University, it primarily handles the Physical Education courses which are basic requirements for graduation of all baccalaureate degree programs. As the center of the sports development and education in the University, the unit is also tasked to produce competent professionals in the fields of sports, athletics, recreation, music and dance.</p>"+
+              p1.innerHTML =
+                "<p>The Sports, Physical Education and Recreation Center (SPERC) which was created in January 1985 were eventually converted to Institute of Sports, Physical Education (ISPEAR) by virtue of Board Resolution No. 12. s. 1992 as approved by the Board of Regents of December 10, 1992. As a service unit of the University, it primarily handles the Physical Education courses which are basic requirements for graduation of all baccalaureate degree programs. As the center of the sports development and education in the University, the unit is also tasked to produce competent professionals in the fields of sports, athletics, recreation, music and dance.</p>"+
 
                 "<h3>Goals</h3>"+
                 "<p>To maximize holistic development of a person with emphasis on physical wellness to become healthy and productive individuals.</p>"+
@@ -648,13 +6540,242 @@ function hideModal() {
                 "<li>b.	Sports Wellness and Management</li>"+
                 "</ul>"+
                 "<p></p>"+
+                `<p><strong>Faculties</strong></p>
+                <h3>&nbsp;</h3>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Arias, Elpidio A.</p>
+                </td>
+                <td>
+                <p>MSPE</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Buisan, Jessa S.</p>
+                </td>
+                <td>
+                <p>MAT-Human Kinetics (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Calixto, Marichu A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                </tr>
+                <tr>
+                <td>
+                <p>Dagoc, Priscilla P.</p>
+                </td>
+                <td>
+                <p>EdD-PE (on-going)</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Elumbaring, Jerum B.</p>
+                </td>
+                <td>
+                <p>MAED-PE</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Garcia, Judy L.</p>
+                </td>
+                <td>
+                <p>EdD-PE</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Java, Moreno V.</p>
+                </td>
+                <td>
+                <p>EdD-PE</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Java, Vinus P.</p>
+                </td>
+                <td>
+                <p>MAT-PE (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Lopez, Helen Grace D.</p>
+                </td>
+                <td>
+                <p>MAT-PE</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Mancera , Marlon A.</p>
+                </td>
+                <td>
+                <p>MAT-Human Kinetics (on-going)</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Martinez, Malony F.</p>
+                </td>
+                <td>
+                <p>MAT-PE (ON-GOING)</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Martinez, Norge D.</p>
+                </td>
+                <td>
+                <p>EdD-PE</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ogatis, Gladys P.</p>
+                </td>
+                <td>
+                <p>MAT-Human Kinetics</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Orrego, Marlene E.</p>
+                </td>
+                <td>
+                <p>MAT-Human Kinetics</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Pahm, Khaironesa P.</p>
+                </td>
+                <td>
+                <p>PhD-RD</p>
+                </td>
+                <td>
+                <p>Professor I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Sarikit, Gemma D.</p>
+                </td>
+                <td>
+                <p>EdD-PE</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p><strong>&nbsp;</strong></p>
+                `+
                 "<p></p>";
               break;
 
             case "College of Middle East Asian Studies Kabacan, Cotabato":
               image1.src = "img/IMEAS1.png";
-              title1.innerHTML = "Institute of Meddle East and Asian Studies ";
-              p1.innerHTML = "<p>The Institute of Middle East and Asian Studies was conceived and established during the presidency of DR. JAMAN S. IMLAN, Al Hadj, of the University of Southern Mindanao. By virtue of the BOR Resolution No. 20, series of 1983, the Institute was made operation on June 1988 with the degree offering of Bachelor of Arts in Islamic Studies.</p>"+
+              title1.innerHTML = "Institute of Middle East and Asian Studies ";
+              p1.innerHTML =
+                "<p>The Institute of Middle East and Asian Studies was conceived and established during the presidency of DR. JAMAN S. IMLAN, Al Hadj, of the University of Southern Mindanao. By virtue of the BOR Resolution No. 20, series of 1983, the Institute was made operation on June 1988 with the degree offering of Bachelor of Arts in Islamic Studies.</p>"+
                 "<p>The Muslim motif edifice was constructed by the Salanatin Construction Firm and was accepted by DR. KUNDO E. PAHM President of this University on August 8, 1989.</p>"+
                 "<p>Subsequently, when DR. VIRGILIO G. OLIVA has assumed the Office of the President of the USM, he took the initiative of naming this beautiful edifice as Salipada K. Pendatun Building by virtue of the BOR Resolution No.9, series of 1995.</p>"+
                 "<p>This Institute has remained an independent academic unit of the University of Southern Mindanao as per declaration of the former President DR. JESUS ANTONIO G. DERIJE in 2009.</p>"+
@@ -682,7 +6803,256 @@ function hideModal() {
                 "<li>Bachelor of Science in International Relation</li>"+
                 "</ul>"+
                 "<p></p>"+
+                `
+                <p><strong>Faculties</strong></p>
+                <p><strong>Office of the Dean</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Abdulkadir, Badrodin S.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asst. Prof IV</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p><strong>Office of the Director for Instruction</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <thead>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="120">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Murray, Abubakar A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Asso. Prof V</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                </thead>
+                </table>
+                <p><strong>Department of&nbsp;Islamic Studies</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="100">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Abdulmaguid, Abdullah R.</p>
+                </td>
+                <td>
+                <p>LL.B, Shariah Lawyer</p>
+                </td>
+                <td>
+                <p>Instructor II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Abubakar, Abdulkadir M.</p>
+                </td>
+                <td>
+                <p>M.A.I.S</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Molao, Sofia</p>
+                </td>
+                <td>
+                <p>MPS-DE</p>
+                </td>
+                <td>
+                <p>Asst. Prof I</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Yusop, Abdulgani A.</p>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p><strong>Department of&nbsp;International Relations</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Highest Educational Attainment</strong></p>
+                </td>
+                <td width="100">
+                <p><strong>Rank</strong></p>
+                </td>
+                <td width="200">
+                <p><strong>Status of Appointment</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Caup, Dialica L.</p>
+                </td>
+                <td>
+                <p>Ph.D</p>
+                </td>
+                <td>
+                <p>Asso. Prof II</p>
+                </td>
+                <td>
+                <p>Permanent</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Kulidtod, Remedios C.</p>
+                </td>
+                <td>
+                <p>Master of Arts in Education</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>Permanent&nbsp;</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Musa, Muchtar E. &nbsp;&nbsp;&nbsp;</p>
+                </td>
+                <td>
+                <p>M.A. Pol &amp; I.R.</p>
+                </td>
+                <td>
+                <p>Instructor I&nbsp;</p>
+                </td>
+                <td>
+                <p>&nbsp;Contract of Service</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Musa, Saima</p>
+                </td>
+                <td>
+                <p>Bachelor of Science in International Relations</p>
+                </td>
+                <td>
+                <p>Instructor I</p>
+                </td>
+                <td>
+                <p>Contract of Service</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p><strong>Non-Teaching Staff</strong></p>
+                <p>&nbsp;</p>
+                <table>
+                <tbody>
+                <tr>
+                <td width="250">
+                <p><strong>Name</strong></p>
+                </td>
+                <td width="250">
+                <p><strong>Rank</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Ampang, Khaizzar S.</p>
+                </td>
+                <td>
+                <p>Admin Aide-II/Clerk/Liaison Officer</p>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <p>Managay, Kamad M.</p>
+                </td>
+                <td>
+                <p>Admin Aide-I/Janitor</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p><strong>&nbsp;</strong></p>
+                `+
                 "<p></p>";
+
               break;
           default:
               image1.src = "";
