@@ -182,7 +182,7 @@ function hideModal() {
     /*  origin: document.getElementById('start').value,*/
       origin: new google.maps.LatLng(lat , long),
       destination: document.getElementById('end').value,
-      travelMode: 'DRIVING'
+      travelMode: 'WALKING'
     }, function(response, status) {
       if (status === 'OK') {
 
